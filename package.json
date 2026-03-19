@@ -1,0 +1,9 @@
+{
+  "name": "unitify-prompts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "collect": "bun run ./coderabbit-collect-from-pr.ts",
+    "test": "bun test"
+  }
+}
