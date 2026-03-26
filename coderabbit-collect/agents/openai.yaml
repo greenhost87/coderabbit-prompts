@@ -1,0 +1,4 @@
+interface:
+  display_name: "CodeRabbit Collect"
+  short_description: "Collect CodeRabbit PR findings"
+  default_prompt: "Use $coderabbit-collect to collect CodeRabbit findings from this PR into a normalized markdown file."

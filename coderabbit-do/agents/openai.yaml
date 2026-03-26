@@ -1,0 +1,4 @@
+interface:
+  display_name: "CodeRabbit Do"
+  short_description: "Fix next open CodeRabbit finding"
+  default_prompt: "Use $coderabbit-do to validate and resolve the next OPEN CodeRabbit finding on this branch."

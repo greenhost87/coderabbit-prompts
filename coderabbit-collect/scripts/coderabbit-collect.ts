@@ -904,7 +904,7 @@ export function buildArchive(existingActive: Finding[], existingArchived: Findin
 }
 
 export function main(): void {
-  const prUrl = Bun.argv[2] || detectCurrentPrUrl()
+  const prUrl = process.argv[2] || detectCurrentPrUrl()
   const { owner, repo, prNumber } = parsePrUrl(prUrl)
 
   const prMeta = ghApiJson(`repos/${owner}/${repo}/pulls/${prNumber}`)

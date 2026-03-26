@@ -15,7 +15,7 @@ import {
   slugifyBranch,
   stableKeyForFinding,
   type Finding,
-} from './coderabbit-collect-from-pr.ts'
+} from './coderabbit-collect.ts'
 
 describe('utility helpers', () => {
   test('quoteShell escapes single quotes', () => {

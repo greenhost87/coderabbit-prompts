@@ -1,0 +1,8 @@
+{
+  "name": "coderabbit-do",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "bun test ./scripts/coderabbit-do.test.ts"
+  }
+}
